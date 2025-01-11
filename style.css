@@ -3,6 +3,8 @@ body{
     margin: 0px;
     font-family: arial,sans-serif;
     background-color: #f8f8f8;
+    padding: 0;
+    background-color: #f9f9f9;
 }
 .headline{
   margin-left: 160px;
@@ -71,4 +73,48 @@ body{
 .image img {
     width: 600px;
     height: 560;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 20px;
+}
+ .h1 {
+    font-size: 20px;
+    margin-bottom: 50px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.pillars{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pillar{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pillar img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.pillar h2 {
+    font-size: 120%;
+    margin: 10px 0; 
+}
+
+.pillar p {
+    font-size: 90%;
+    color: #555;
 }
